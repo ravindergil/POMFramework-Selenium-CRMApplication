@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.CRM.regression.test.HeaderImageTest" hash-for-method="HeaderTest">HeaderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.CRM.regression.test.LogInTest" hash-for-method="LogIn">LogIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.CRM.regression.test.MenuCheckTest" hash-for-method="checkMenuOptions">checkMenuOptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.CRM.regression.test.GetCopyrightTest" hash-for-method="getCopyRightTest">getCopyRightTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.CRM.regression.test.ReadLeadInfoTest" hash-for-method="getLeadInfo">getLeadInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.CRM.regression.test.NaviColorTest" hash-for-method="getNaviColor">getNaviColor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.CRM.regression.test.ReadTitleTest" hash-for-method="getTitle">getTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.CRM.regression.test.PrintNamesTest" hash-for-method="printNameData">printNameData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.CRM.regression.test.PrintTableTest" hash-for-method="readTableData">readTableData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.CRM.regression.test.PrintNamesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="printNameData">
+                  </a> <!-- printNameData -->
+                  <span class="method-name">printNameData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.CRM.regression.test.ReadTitleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTitle">
+                  </a> <!-- getTitle -->
+                  <span class="method-name">getTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.CRM.regression.test.ReadLeadInfoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getLeadInfo">
+                  </a> <!-- getLeadInfo -->
+                  <span class="method-name">getLeadInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.CRM.regression.test.NaviColorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getNaviColor">
+                  </a> <!-- getNaviColor -->
+                  <span class="method-name">getNaviColor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.CRM.regression.test.LogInTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LogIn">
+                  </a> <!-- LogIn -->
+                  <span class="method-name">LogIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.CRM.regression.test.MenuCheckTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMenuOptions">
+                  </a> <!-- checkMenuOptions -->
+                  <span class="method-name">checkMenuOptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.CRM.regression.test.GetCopyrightTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCopyRightTest">
+                  </a> <!-- getCopyRightTest -->
+                  <span class="method-name">getCopyRightTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.CRM.regression.test.PrintTableTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="readTableData">
+                  </a> <!-- readTableData -->
+                  <span class="method-name">readTableData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.CRM.regression.test.HeaderImageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HeaderTest">
+                  </a> <!-- HeaderTest -->
+                  <span class="method-name">HeaderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/user/eclipse-workspace/CRM-Project-POM/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.CRM.regression.test.ReadTitleTest&quot;/&gt;
+      &lt;class name=&quot;com.CRM.regression.test.HeaderImageTest&quot;/&gt;
+      &lt;class name=&quot;com.CRM.regression.test.GetCopyrightTest&quot;/&gt;
+      &lt;class name=&quot;com.CRM.regression.test.LogInTest&quot;/&gt;
+      &lt;class name=&quot;com.CRM.regression.test.NaviColorTest&quot;/&gt;
+      &lt;class name=&quot;com.CRM.regression.test.MenuCheckTest&quot;/&gt;
+      &lt;class name=&quot;com.CRM.regression.test.ReadLeadInfoTest&quot;/&gt;
+      &lt;class name=&quot;com.CRM.regression.test.PrintTableTest&quot;/&gt;
+      &lt;class name=&quot;com.CRM.regression.test.PrintNamesTest&quot;/&gt;
+      &lt;class name=&quot;com.CRM.utility.BaseClass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (10 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getLeadInfo')
+data.setCell(0, 2, 'com.CRM.regression.test.ReadLeadInfoTest')
+data.setCell(0, 3, 6794);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'readTableData')
+data.setCell(1, 2, 'com.CRM.regression.test.PrintTableTest')
+data.setCell(1, 3, 6767);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'printNameData')
+data.setCell(2, 2, 'com.CRM.regression.test.PrintNamesTest')
+data.setCell(2, 3, 6490);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkMenuOptions')
+data.setCell(3, 2, 'com.CRM.regression.test.MenuCheckTest')
+data.setCell(3, 3, 2595);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'LogIn')
+data.setCell(4, 2, 'com.CRM.regression.test.LogInTest')
+data.setCell(4, 3, 2587);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'getNaviColor')
+data.setCell(5, 2, 'com.CRM.regression.test.NaviColorTest')
+data.setCell(5, 3, 2497);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'HeaderTest')
+data.setCell(6, 2, 'com.CRM.regression.test.HeaderImageTest')
+data.setCell(6, 3, 213);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getCopyRightTest')
+data.setCell(7, 2, 'com.CRM.regression.test.GetCopyrightTest')
+data.setCell(7, 3, 120);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'getTitle')
+data.setCell(8, 2, 'com.CRM.regression.test.ReadTitleTest')
+data.setCell(8, 3, 51);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LogIn</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">---Test Case : Log into Application Started---</span>
+                <span class="reporter-method-output">Logged into Application Successful</span>
+                <span class="reporter-method-output">---TestCase : : Log into Application Started - Pass---</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkMenuOptions</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case : Verify Login Menu Option is enabled - Started</span>
+                <span class="reporter-method-output">Logged into Application Successful</span>
+                <span class="reporter-method-output">Test Case : Verify Login Menu Option is enabled - Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readTableData</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case : Open the accounts page and print the contents of the table - Started</span>
+                <span class="reporter-method-output">Logged into Application Successful</span>
+                <span class="reporter-method-output">Test Case : Open the accounts page and print the contents of the table - Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">getCopyRightTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case : Print the first copyright text in the footer to the console - Started</span>
+                <span class="reporter-method-output">CopyRight Text is : © Supercharged by SuiteCRM</span>
+                <span class="reporter-method-output">Test Case : Print the first copyright text in the footer to the console - Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">getLeadInfo</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case : Reading contains additional information about the account/lead - Started</span>
+                <span class="reporter-method-output">Logged into Application Successful</span>
+                <span class="reporter-method-output">Sales Menu Opened</span>
+                <span class="reporter-method-output">Button Clicked</span>
+                <span class="reporter-method-output">Test Case : Reading contains additional information about the account/lead - Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">HeaderTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case : Print the url of the header image to the console - Started</span>
+                <span class="reporter-method-output">The Url is : https://alchemy.hguy.co/crm/themes/default/images/company_logo.png?v=cK7kLsY0ftg72ZVHTYUT_g</span>
+                <span class="reporter-method-output">Test Case : Print the url of the header image to the console - Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">printNameData</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case : Get Names from the List - Started</span>
+                <span class="reporter-method-output">Logged into Application Successful</span>
+                <span class="reporter-method-output">The names are : {[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]]}</span>
+                <span class="reporter-method-output">Test Case : Get Names from the List - Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">getTitle</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case : Read Page Title - Started</span>
+                <span class="reporter-method-output">Test Case : Read Page Title - Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">getNaviColor</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case : Get the color of the navigation menu - Started</span>
+                <span class="reporter-method-output">Logged into Application Successful</span>
+                <span class="reporter-method-output">The navigation menu color is : rgb(83, 77, 100)</span>
+                <span class="reporter-method-output">Test Case : Get the color of the navigation menu - Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">9 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.CRM.regression.test.PrintNamesTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.CRM.regression.test.ReadLeadInfoTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.CRM.regression.test.NaviColorTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.CRM.regression.test.LogInTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.CRM.regression.test.MenuCheckTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.CRM.utility.BaseClass</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.CRM.regression.test.PrintTableTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.CRM.regression.test.GetCopyrightTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.CRM.regression.test.HeaderImageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CRM.regression.test.ReadTitleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUpSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">startApp</span>
+                <span class="method-start">106 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTitle</span>
+                <span class="method-start">19413 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19478 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CRM.regression.test.HeaderImageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startApp</span>
+                <span class="method-start">20697 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">HeaderTest</span>
+                <span class="method-start">28112 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28328 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CRM.regression.test.GetCopyrightTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startApp</span>
+                <span class="method-start">29116 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getCopyRightTest</span>
+                <span class="method-start">36416 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36538 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CRM.regression.test.LogInTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startApp</span>
+                <span class="method-start">37441 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LogIn</span>
+                <span class="method-start">44872 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">47464 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CRM.regression.test.NaviColorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startApp</span>
+                <span class="method-start">48310 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getNaviColor</span>
+                <span class="method-start">55585 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">58084 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CRM.regression.test.MenuCheckTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startApp</span>
+                <span class="method-start">58893 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkMenuOptions</span>
+                <span class="method-start">65967 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68564 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CRM.regression.test.ReadLeadInfoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startApp</span>
+                <span class="method-start">69367 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getLeadInfo</span>
+                <span class="method-start">76751 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">83547 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CRM.regression.test.PrintTableTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startApp</span>
+                <span class="method-start">84398 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">readTableData</span>
+                <span class="method-start">91507 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">98277 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CRM.regression.test.PrintNamesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startApp</span>
+                <span class="method-start">99113 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">printNameData</span>
+                <span class="method-start">106049 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">112541 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

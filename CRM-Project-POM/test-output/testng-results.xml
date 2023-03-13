@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="9" total="18" passed="9">
+  <reporter-output>
+    <line>
+      <![CDATA[=================Test Suite Started========================]]>
+    </line>
+    <line>
+      <![CDATA[Reading Test Data]]>
+    </line>
+    <line>
+      <![CDATA[Application Started]]>
+    </line>
+    <line>
+      <![CDATA[Test Case : Read Page Title - Started]]>
+    </line>
+    <line>
+      <![CDATA[Test Case : Read Page Title - Pass]]>
+    </line>
+    <line>
+      <![CDATA[Application Closed]]>
+    </line>
+    <line>
+      <![CDATA[Application Started]]>
+    </line>
+    <line>
+      <![CDATA[Test Case : Print the url of the header image to the console - Started]]>
+    </line>
+    <line>
+      <![CDATA[The Url is : https://alchemy.hguy.co/crm/themes/default/images/company_logo.png?v=cK7kLsY0ftg72ZVHTYUT_g]]>
+    </line>
+    <line>
+      <![CDATA[Test Case : Print the url of the header image to the console - Pass]]>
+    </line>
+    <line>
+      <![CDATA[Application Closed]]>
+    </line>
+    <line>
+      <![CDATA[Application Started]]>
+    </line>
+    <line>
+      <![CDATA[Test Case : Print the first copyright text in the footer to the console - Started]]>
+    </line>
+    <line>
+      <![CDATA[CopyRight Text is : © Supercharged by SuiteCRM]]>
+    </line>
+    <line>
+      <![CDATA[Test Case : Print the first copyright text in the footer to the console - Pass]]>
+    </line>
+    <line>
+      <![CDATA[Application Closed]]>
+    </line>
+    <line>
+      <![CDATA[Application Started]]>
+    </line>
+    <line>
+      <![CDATA[---Test Case : Log into Application Started---]]>
+    </line>
+    <line>
+      <![CDATA[Logged into Application Successful]]>
+    </line>
+    <line>
+      <![CDATA[---TestCase : : Log into Application Started - Pass---]]>
+    </line>
+    <line>
+      <![CDATA[Application Closed]]>
+    </line>
+    <line>
+      <![CDATA[Application Started]]>
+    </line>
+    <line>
+      <![CDATA[Test Case : Get the color of the navigation menu - Started]]>
+    </line>
+    <line>
+      <![CDATA[Logged into Application Successful]]>
+    </line>
+    <line>
+      <![CDATA[The navigation menu color is : rgb(83, 77, 100)]]>
+    </line>
+    <line>
+      <![CDATA[Test Case : Get the color of the navigation menu - Pass]]>
+    </line>
+    <line>
+      <![CDATA[Application Closed]]>
+    </line>
+    <line>
+      <![CDATA[Application Started]]>
+    </line>
+    <line>
+      <![CDATA[Test Case : Verify Login Menu Option is enabled - Started]]>
+    </line>
+    <line>
+      <![CDATA[Logged into Application Successful]]>
+    </line>
+    <line>
+      <![CDATA[Test Case : Verify Login Menu Option is enabled - Pass]]>
+    </line>
+    <line>
+      <![CDATA[Application Closed]]>
+    </line>
+    <line>
+      <![CDATA[Application Started]]>
+    </line>
+    <line>
+      <![CDATA[Test Case : Reading contains additional information about the account/lead - Started]]>
+    </line>
+    <line>
+      <![CDATA[Logged into Application Successful]]>
+    </line>
+    <line>
+      <![CDATA[Sales Menu Opened]]>
+    </line>
+    <line>
+      <![CDATA[Button Clicked]]>
+    </line>
+    <line>
+      <![CDATA[Test Case : Reading contains additional information about the account/lead - Pass]]>
+    </line>
+    <line>
+      <![CDATA[Application Closed]]>
+    </line>
+    <line>
+      <![CDATA[Application Started]]>
+    </line>
+    <line>
+      <![CDATA[Test Case : Open the accounts page and print the contents of the table - Started]]>
+    </line>
+    <line>
+      <![CDATA[Logged into Application Successful]]>
+    </line>
+    <line>
+      <![CDATA[Test Case : Open the accounts page and print the contents of the table - Pass]]>
+    </line>
+    <line>
+      <![CDATA[Application Closed]]>
+    </line>
+    <line>
+      <![CDATA[Application Started]]>
+    </line>
+    <line>
+      <![CDATA[Test Case : Get Names from the List - Started]]>
+    </line>
+    <line>
+      <![CDATA[Logged into Application Successful]]>
+    </line>
+    <line>
+      <![CDATA[The names are : {[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]]}]]>
+    </line>
+    <line>
+      <![CDATA[Test Case : Get Names from the List - Pass]]>
+    </line>
+    <line>
+      <![CDATA[Application Closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="113419" started-at="2023-03-13T23:48:47 CET" finished-at="2023-03-13T23:50:40 CET">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="113419" started-at="2023-03-13T23:48:47 CET" finished-at="2023-03-13T23:50:40 CET">
+      <class name="com.CRM.regression.test.PrintNamesTest">
+        <test-method status="PASS" signature="startApp()[pri:0, instance:com.CRM.regression.test.PrintNamesTest@4cf4d528]" name="startApp" is-config="true" duration-ms="6936" started-at="2023-03-13T23:50:26 CET" finished-at="2023-03-13T23:50:33 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="printNameData()[pri:0, instance:com.CRM.regression.test.PrintNamesTest@4cf4d528]" name="printNameData" duration-ms="6490" started-at="2023-03-13T23:50:33 CET" finished-at="2023-03-13T23:50:40 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case : Get Names from the List - Started]]>
+            </line>
+            <line>
+              <![CDATA[Logged into Application Successful]]>
+            </line>
+            <line>
+              <![CDATA[The names are : {[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]]}]]>
+            </line>
+            <line>
+              <![CDATA[Test Case : Get Names from the List - Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printNameData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.CRM.regression.test.PrintNamesTest@4cf4d528]" name="tearDown" is-config="true" duration-ms="914" started-at="2023-03-13T23:50:40 CET" finished-at="2023-03-13T23:50:40 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.CRM.regression.test.PrintNamesTest -->
+      <class name="com.CRM.regression.test.ReadTitleTest">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.CRM.regression.test.ReadTitleTest@706a04ae]" name="setUpSuite" is-config="true" duration-ms="34" started-at="2023-03-13T23:48:47 CET" finished-at="2023-03-13T23:48:47 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[=================Test Suite Started========================]]>
+            </line>
+            <line>
+              <![CDATA[Reading Test Data]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="startApp()[pri:0, instance:com.CRM.regression.test.ReadTitleTest@706a04ae]" name="startApp" is-config="true" duration-ms="19306" started-at="2023-03-13T23:48:47 CET" finished-at="2023-03-13T23:49:06 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="getTitle()[pri:0, instance:com.CRM.regression.test.ReadTitleTest@706a04ae]" name="getTitle" duration-ms="51" started-at="2023-03-13T23:49:06 CET" finished-at="2023-03-13T23:49:06 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case : Read Page Title - Started]]>
+            </line>
+            <line>
+              <![CDATA[Test Case : Read Page Title - Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.CRM.regression.test.ReadTitleTest@706a04ae]" name="tearDown" is-config="true" duration-ms="1215" started-at="2023-03-13T23:49:06 CET" finished-at="2023-03-13T23:49:08 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.CRM.regression.test.ReadTitleTest -->
+      <class name="com.CRM.regression.test.GetCopyrightTest">
+        <test-method status="PASS" signature="startApp()[pri:0, instance:com.CRM.regression.test.GetCopyrightTest@149494d8]" name="startApp" is-config="true" duration-ms="7300" started-at="2023-03-13T23:49:16 CET" finished-at="2023-03-13T23:49:23 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="getCopyRightTest()[pri:0, instance:com.CRM.regression.test.GetCopyrightTest@149494d8]" name="getCopyRightTest" duration-ms="120" started-at="2023-03-13T23:49:23 CET" finished-at="2023-03-13T23:49:24 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case : Print the first copyright text in the footer to the console - Started]]>
+            </line>
+            <line>
+              <![CDATA[CopyRight Text is : © Supercharged by SuiteCRM]]>
+            </line>
+            <line>
+              <![CDATA[Test Case : Print the first copyright text in the footer to the console - Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getCopyRightTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.CRM.regression.test.GetCopyrightTest@149494d8]" name="tearDown" is-config="true" duration-ms="902" started-at="2023-03-13T23:49:24 CET" finished-at="2023-03-13T23:49:24 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.CRM.regression.test.GetCopyrightTest -->
+      <class name="com.CRM.regression.test.HeaderImageTest">
+        <test-method status="PASS" signature="startApp()[pri:0, instance:com.CRM.regression.test.HeaderImageTest@954b04f]" name="startApp" is-config="true" duration-ms="7414" started-at="2023-03-13T23:49:08 CET" finished-at="2023-03-13T23:49:15 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="HeaderTest()[pri:0, instance:com.CRM.regression.test.HeaderImageTest@954b04f]" name="HeaderTest" duration-ms="213" started-at="2023-03-13T23:49:15 CET" finished-at="2023-03-13T23:49:15 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case : Print the url of the header image to the console - Started]]>
+            </line>
+            <line>
+              <![CDATA[The Url is : https://alchemy.hguy.co/crm/themes/default/images/company_logo.png?v=cK7kLsY0ftg72ZVHTYUT_g]]>
+            </line>
+            <line>
+              <![CDATA[Test Case : Print the url of the header image to the console - Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- HeaderTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.CRM.regression.test.HeaderImageTest@954b04f]" name="tearDown" is-config="true" duration-ms="787" started-at="2023-03-13T23:49:15 CET" finished-at="2023-03-13T23:49:16 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.CRM.regression.test.HeaderImageTest -->
+      <class name="com.CRM.regression.test.PrintTableTest">
+        <test-method status="PASS" signature="startApp()[pri:0, instance:com.CRM.regression.test.PrintTableTest@545997b1]" name="startApp" is-config="true" duration-ms="7109" started-at="2023-03-13T23:50:11 CET" finished-at="2023-03-13T23:50:18 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="readTableData()[pri:0, instance:com.CRM.regression.test.PrintTableTest@545997b1]" name="readTableData" duration-ms="6767" started-at="2023-03-13T23:50:18 CET" finished-at="2023-03-13T23:50:25 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case : Open the accounts page and print the contents of the table - Started]]>
+            </line>
+            <line>
+              <![CDATA[Logged into Application Successful]]>
+            </line>
+            <line>
+              <![CDATA[Test Case : Open the accounts page and print the contents of the table - Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readTableData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.CRM.regression.test.PrintTableTest@545997b1]" name="tearDown" is-config="true" duration-ms="835" started-at="2023-03-13T23:50:25 CET" finished-at="2023-03-13T23:50:26 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.CRM.regression.test.PrintTableTest -->
+      <class name="com.CRM.regression.test.MenuCheckTest">
+        <test-method status="PASS" signature="startApp()[pri:0, instance:com.CRM.regression.test.MenuCheckTest@481a15ff]" name="startApp" is-config="true" duration-ms="7074" started-at="2023-03-13T23:49:46 CET" finished-at="2023-03-13T23:49:53 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="checkMenuOptions()[pri:0, instance:com.CRM.regression.test.MenuCheckTest@481a15ff]" name="checkMenuOptions" duration-ms="2595" started-at="2023-03-13T23:49:53 CET" finished-at="2023-03-13T23:49:56 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case : Verify Login Menu Option is enabled - Started]]>
+            </line>
+            <line>
+              <![CDATA[Logged into Application Successful]]>
+            </line>
+            <line>
+              <![CDATA[Test Case : Verify Login Menu Option is enabled - Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkMenuOptions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.CRM.regression.test.MenuCheckTest@481a15ff]" name="tearDown" is-config="true" duration-ms="802" started-at="2023-03-13T23:49:56 CET" finished-at="2023-03-13T23:49:56 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.CRM.regression.test.MenuCheckTest -->
+      <class name="com.CRM.regression.test.ReadLeadInfoTest">
+        <test-method status="PASS" signature="startApp()[pri:0, instance:com.CRM.regression.test.ReadLeadInfoTest@78186a70]" name="startApp" is-config="true" duration-ms="7384" started-at="2023-03-13T23:49:56 CET" finished-at="2023-03-13T23:50:04 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="getLeadInfo()[pri:0, instance:com.CRM.regression.test.ReadLeadInfoTest@78186a70]" name="getLeadInfo" duration-ms="6794" started-at="2023-03-13T23:50:04 CET" finished-at="2023-03-13T23:50:11 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case : Reading contains additional information about the account/lead - Started]]>
+            </line>
+            <line>
+              <![CDATA[Logged into Application Successful]]>
+            </line>
+            <line>
+              <![CDATA[Sales Menu Opened]]>
+            </line>
+            <line>
+              <![CDATA[Button Clicked]]>
+            </line>
+            <line>
+              <![CDATA[Test Case : Reading contains additional information about the account/lead - Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getLeadInfo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.CRM.regression.test.ReadLeadInfoTest@78186a70]" name="tearDown" is-config="true" duration-ms="850" started-at="2023-03-13T23:50:11 CET" finished-at="2023-03-13T23:50:11 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.CRM.regression.test.ReadLeadInfoTest -->
+      <class name="com.CRM.regression.test.LogInTest">
+        <test-method status="PASS" signature="startApp()[pri:0, instance:com.CRM.regression.test.LogInTest@710726a3]" name="startApp" is-config="true" duration-ms="7431" started-at="2023-03-13T23:49:24 CET" finished-at="2023-03-13T23:49:32 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="LogIn()[pri:0, instance:com.CRM.regression.test.LogInTest@710726a3]" name="LogIn" duration-ms="2587" started-at="2023-03-13T23:49:32 CET" finished-at="2023-03-13T23:49:34 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[---Test Case : Log into Application Started---]]>
+            </line>
+            <line>
+              <![CDATA[Logged into Application Successful]]>
+            </line>
+            <line>
+              <![CDATA[---TestCase : : Log into Application Started - Pass---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.CRM.regression.test.LogInTest@710726a3]" name="tearDown" is-config="true" duration-ms="845" started-at="2023-03-13T23:49:34 CET" finished-at="2023-03-13T23:49:35 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.CRM.regression.test.LogInTest -->
+      <class name="com.CRM.regression.test.NaviColorTest">
+        <test-method status="PASS" signature="startApp()[pri:0, instance:com.CRM.regression.test.NaviColorTest@646007f4]" name="startApp" is-config="true" duration-ms="7275" started-at="2023-03-13T23:49:35 CET" finished-at="2023-03-13T23:49:43 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="getNaviColor()[pri:0, instance:com.CRM.regression.test.NaviColorTest@646007f4]" name="getNaviColor" duration-ms="2497" started-at="2023-03-13T23:49:43 CET" finished-at="2023-03-13T23:49:45 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case : Get the color of the navigation menu - Started]]>
+            </line>
+            <line>
+              <![CDATA[Logged into Application Successful]]>
+            </line>
+            <line>
+              <![CDATA[The navigation menu color is : rgb(83, 77, 100)]]>
+            </line>
+            <line>
+              <![CDATA[Test Case : Get the color of the navigation menu - Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getNaviColor -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.CRM.regression.test.NaviColorTest@646007f4]" name="tearDown" is-config="true" duration-ms="808" started-at="2023-03-13T23:49:45 CET" finished-at="2023-03-13T23:49:46 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.CRM.regression.test.NaviColorTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

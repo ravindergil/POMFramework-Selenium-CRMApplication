@@ -1,0 +1,208 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Mar 13 23:48:47 CET 2023</td>
+</tr>
+<tr><td>Total time:</td><td>113 seconds (113419 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.CRM.regression.test.LogInTest.LogIn()'><b>LogIn</b><br>Test class: com.CRM.regression.test.LogInTest<br/>
+<a href="#Output-1101721002" onClick='toggleBox("Output-1101721002", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1101721002" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1101721002">
+---Test Case : Log into Application Started---<br/>
+Logged into Application Successful<br/>
+---TestCase : : Log into Application Started - Pass---<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.CRM.regression.test.LogInTest@710726a3</td></tr>
+<tr>
+<td title='com.CRM.regression.test.MenuCheckTest.checkMenuOptions()'><b>checkMenuOptions</b><br>Test class: com.CRM.regression.test.MenuCheckTest<br/>
+<a href="#Output-223783590" onClick='toggleBox("Output-223783590", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-223783590" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-223783590">
+Test Case : Verify Login Menu Option is enabled - Started<br/>
+Logged into Application Successful<br/>
+Test Case : Verify Login Menu Option is enabled - Pass<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.CRM.regression.test.MenuCheckTest@481a15ff</td></tr>
+<tr>
+<td title='com.CRM.regression.test.PrintTableTest.readTableData()'><b>readTableData</b><br>Test class: com.CRM.regression.test.PrintTableTest<br/>
+<a href="#Output-1921143808" onClick='toggleBox("Output-1921143808", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1921143808" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1921143808">
+Test Case : Open the accounts page and print the contents of the table - Started<br/>
+Logged into Application Successful<br/>
+Test Case : Open the accounts page and print the contents of the table - Pass<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.CRM.regression.test.PrintTableTest@545997b1</td></tr>
+<tr>
+<td title='com.CRM.regression.test.GetCopyrightTest.getCopyRightTest()'><b>getCopyRightTest</b><br>Test class: com.CRM.regression.test.GetCopyrightTest<br/>
+<a href="#Output-1248435962" onClick='toggleBox("Output-1248435962", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1248435962" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1248435962">
+Test Case : Print the first copyright text in the footer to the console - Started<br/>
+CopyRight Text is : © Supercharged by SuiteCRM<br/>
+Test Case : Print the first copyright text in the footer to the console - Pass<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.CRM.regression.test.GetCopyrightTest@149494d8</td></tr>
+<tr>
+<td title='com.CRM.regression.test.ReadLeadInfoTest.getLeadInfo()'><b>getLeadInfo</b><br>Test class: com.CRM.regression.test.ReadLeadInfoTest<br/>
+<a href="#Output-44249014" onClick='toggleBox("Output-44249014", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-44249014" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-44249014">
+Test Case : Reading contains additional information about the account/lead - Started<br/>
+Logged into Application Successful<br/>
+Sales Menu Opened<br/>
+Button Clicked<br/>
+Test Case : Reading contains additional information about the account/lead - Pass<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.CRM.regression.test.ReadLeadInfoTest@78186a70</td></tr>
+<tr>
+<td title='com.CRM.regression.test.HeaderImageTest.HeaderTest()'><b>HeaderTest</b><br>Test class: com.CRM.regression.test.HeaderImageTest<br/>
+<a href="#Output-161113555" onClick='toggleBox("Output-161113555", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-161113555" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-161113555">
+Test Case : Print the url of the header image to the console - Started<br/>
+The Url is : https://alchemy.hguy.co/crm/themes/default/images/company_logo.png?v=cK7kLsY0ftg72ZVHTYUT_g<br/>
+Test Case : Print the url of the header image to the console - Pass<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.CRM.regression.test.HeaderImageTest@954b04f</td></tr>
+<tr>
+<td title='com.CRM.regression.test.PrintNamesTest.printNameData()'><b>printNameData</b><br>Test class: com.CRM.regression.test.PrintNamesTest<br/>
+<a href="#Output-1647509467" onClick='toggleBox("Output-1647509467", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1647509467" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1647509467">
+Test Case : Get Names from the List - Started<br/>
+Logged into Application Successful<br/>
+The names are : {[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]], [[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[3]]=[[FirefoxDriver: firefox on MAC (c4a8dc0a-9dcc-4760-aea1-2fd05531352e)] -> xpath: //table[@class='list view table-responsive']/tbody/tr/td[8]]}<br/>
+Test Case : Get Names from the List - Pass<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.CRM.regression.test.PrintNamesTest@4cf4d528</td></tr>
+<tr>
+<td title='com.CRM.regression.test.ReadTitleTest.getTitle()'><b>getTitle</b><br>Test class: com.CRM.regression.test.ReadTitleTest<br/>
+<a href="#Output-917935693" onClick='toggleBox("Output-917935693", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-917935693" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-917935693">
+Test Case : Read Page Title - Started<br/>
+Test Case : Read Page Title - Pass<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.CRM.regression.test.ReadTitleTest@706a04ae</td></tr>
+<tr>
+<td title='com.CRM.regression.test.NaviColorTest.getNaviColor()'><b>getNaviColor</b><br>Test class: com.CRM.regression.test.NaviColorTest<br/>
+<a href="#Output-2008666311" onClick='toggleBox("Output-2008666311", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2008666311" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2008666311">
+Test Case : Get the color of the navigation menu - Started<br/>
+Logged into Application Successful<br/>
+The navigation menu color is : rgb(83, 77, 100)<br/>
+Test Case : Get the color of the navigation menu - Pass<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.CRM.regression.test.NaviColorTest@646007f4</td></tr>
+</table><p>
+</body>
+</html>
